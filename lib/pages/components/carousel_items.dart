@@ -106,7 +106,7 @@ List<CarouselItemModel> carouselItems = List.generate(
     ),
     image: Container(
       child: Image.asset(
-        "assets/s.png",
+        "assets/sami_profile.png",
         fit: BoxFit.contain,
         height: 550.0,
       ),
