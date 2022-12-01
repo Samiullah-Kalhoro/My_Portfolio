@@ -29,7 +29,7 @@ class HeaderLogo extends StatelessWidget {
         child: RichText(
             text: TextSpan(children: [
           TextSpan(
-            text: "S",
+            text: "SK",
             style: GoogleFonts.oswald(
               color: Colors.white,
               fontSize: 32.0,
