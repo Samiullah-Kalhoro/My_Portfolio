@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_portfolio/utils/constants.dart';
 import 'package:my_portfolio/utils/global.dart';
 
+import '../components/carousel.dart';
 import '../components/header.dart';
 
 class Home extends StatelessWidget {
@@ -50,8 +51,11 @@ class Home extends StatelessWidget {
       body: SingleChildScrollView(
           child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [Header()],
-      )),
+        children: [const Header(),
+        Carousel(),
+        ],
+      )
+      ),
     );
   }
 }
