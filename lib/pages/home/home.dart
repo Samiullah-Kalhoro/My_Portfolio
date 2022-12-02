@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_portfolio/utils/constants.dart';
 import 'package:my_portfolio/utils/global.dart';
 
+import '../components/app_ad.dart';
 import '../components/carousel.dart';
 import '../components/cv_section.dart';
 import '../components/header.dart';
@@ -59,6 +60,7 @@ class Home extends StatelessWidget {
             height: 20.0,
           ),
           const CvSection(),
+          AppAd(),
         ],
       )),
     );
