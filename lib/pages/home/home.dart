@@ -60,7 +60,7 @@ class Home extends StatelessWidget {
             height: 20.0,
           ),
           const CvSection(),
-          AppAd(),
+          const AppAd(),
         ],
       )),
     );
